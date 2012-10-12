@@ -1,7 +1,12 @@
 <?php
 
 /**
+ * @authors Thodoris Semertzidis, Stavroula Manolopoulou,George Litos
+ *
  * create RUCoD files from image search engine queries
+ *
+ * see config.inc.php for configuration options *
+ create RUCoD files from image search engine queries
  *
  * see config.inc.php for configuration options
  *
