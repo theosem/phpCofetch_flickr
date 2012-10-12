@@ -1,0 +1,2 @@
+php rucod.php 
+pause

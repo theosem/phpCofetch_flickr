@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RUCoD xmlns="http://www.isearch-project.eu/isearch/RUCoD" xmlns:gml="http://www.opengis.net/gml" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Header>
+    <ContentObjectType>Multimedia Collection</ContentObjectType>
+    <ContentObjectName xml:lang="en-US">
+      {{{ContentObjectName}}}
+    </ContentObjectName>
+    <ContentObjectVersion>1</ContentObjectVersion>
+    <ContentObjectCreationInformation>
+      <Creator>
+        <Name>ImageSearch2RUCoD script</Name>
+      </Creator>
+      <Contributor>
+        <Name>flickr.com</Name>
+      </Contributor>
+    </ContentObjectCreationInformation>
+    <ContentObjectTypes>
+      <MultimediaContent type="Text">
+        <FreeText>{{{FreeText}}}</FreeText>
+      </MultimediaContent>
+      <MultimediaContent type="ImageType">
+        <MediaName>{{{MediaName}}}</MediaName>
+        <FileFormat>image/jpeg</FileFormat>
+{{{MetaTag}}}
+        <MediaLocator>
+          <MediaUri>{{{MediaUri}}}</MediaUri>
+          <MediaPreview>{{{MediaPreview}}}</MediaPreview>
+        </MediaLocator>
+        <MediaCreationInformation>
+          <Author>
+            <Name>{{{Author}}}</Name>
+          </Author>
+        </MediaCreationInformation>
+      </MultimediaContent>
+      <RealWorldInfo>
+        <MetadataUri filetype="rwml">{{{RealWorldInfoMetadataUri}}}</MetadataUri>
+      </RealWorldInfo>
+    </ContentObjectTypes>
+  </Header>
+</RUCoD>
