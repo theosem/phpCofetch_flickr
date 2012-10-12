@@ -6,3 +6,4 @@
 
 
 notice that if you need to use mongoDB you should download the php drivers from mongoDB site.
+using phpFlickr (include in the project)
